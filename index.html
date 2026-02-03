@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lumo – Minutes → Days/Hours/Minutes Conversion</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 2rem;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #0066cc;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 800px;
+            margin: 1rem auto;
+            background-color: #fff;
+            box-shadow: 0 2px 6px rgba(0,0,0,.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 0.6rem 0.8rem;
+            text-align: right;
+        }
+        th {
+            background-color: #0066cc;
+            color: #fff;
+        }
+        tr:nth-child(even) td {
+            background-color: #f2f2f2;
+        }
+        caption {
+            caption-side: top;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Conversion of 60 + 70·n minutes → Days / Hours / Minutes</h1>
+
+<table>
+    <caption>Values of n from 0 to 60 (max ≈ 3 days)</caption>
+    <thead>
+        <tr>
+            <th>n</th>
+            <th>Total&nbsp;minutes</th>
+            <th>Days</th>
+            <th>Hours</th>
+            <th>Minutes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>0</td><td>60</td><td>0</td><td>1</td><td>0</td></tr>
+        <tr><td>1</td><td>130</td><td>0</td><td>2</td><td>10</td></tr>
+        <tr><td>2</td><td>200</td><td>0</td><td>3</td><td>20</td></tr>
+        <tr><td>3</td><td>270</td><td>0</td><td>4</td><td>30</td></tr>
+        <tr><td>4</td><td>340</td><td>0</td><td>5</td><td>40</td></tr>
+        <tr><td>5</td><td>410</td><td>0</td><td>6</td><td>50</td></tr>
+        <tr><td>6</td><td>480</td><td>0</td><td>8</td><td>0</td></tr>
+        <tr><td>7</td><td>550</td><td>0</td><td>9</td><td>10</td></tr>
+        <tr><td>8</td><td>620</td><td>0</td><td>10</td><td>20</td></tr>
+        <tr><td>9</td><td>690</td><td>0</td><td>11</td><td>30</td></tr>
+        <tr><td>10</td><td>760</td><td>0</td><td>12</td><td>40</td></tr>
+        <tr><td>11</td><td>830</td><td>0</td><td>13</td><td>50</td></tr>
+        <tr><td>12</td><td>900</td><td>0</td><td>15</td><td>0</td></tr>
+        <tr><td>13</td><td>970</td><td>0</td><td>16</td><td>10</td></tr>
+        <tr><td>14</td><td>1040</td><td>0</td><td>17</td><td>20</td></tr>
+        <tr><td>15</td><td>1110</td><td>0</td><td>18</td><td>30</td></tr>
+        <tr><td>16</td><td>1180</td><td>0</td><td>19</td><td>40</td></tr>
+        <tr><td>17</td><td>1250</td><td>0</td><td>20</td><td>50</td></tr>
+        <tr><td>18</td><td>1320</td><td>0</td><td>22</td><td>0</td></tr>
+        <tr><td>19</td><td>1390</td><td>0</td><td>23</td><td>10</td></tr>
+        <tr><td>20</td><td>1460</td><td>1</td><td>0</td><td>20</td></tr>
+        <tr><td>21</td><td>1530</td><td>1</td><td>1</td><td>30</td></tr>
+        <tr><td>22</td><td>1600</td><td>1</td><td>2</td><td>40</td></tr>
+        <tr><td>23</td><td>1670</td><td>1</td><td>3</td><td>50</td></tr>
+        <tr><td>24</td><td>1740</td><td>1</td><td>5</td><td>0</td></tr>
+        <tr><td>25</td><td>1810</td><td>1</td><td>6</td><td>10</td></tr>
+        <tr><td>26</td><td>1880</td><td>1</td><td>7</td><td>20</td></tr>
+        <tr><td>27</td><td>1950</td><td>1</td><td>8</td><td>30</td></tr>
+        <tr><td>28</td><td>2020</td><td>1</td><td>9</td><td>40</td></tr>
+        <tr><td>29</td><td>2090</td><td>1</td><td>10</td><td>50</td></tr>
+        <tr><td>30</td><td>2160</td><td>1</td><td>12</td><td>0</td></tr>
+        <tr><td>31</td><td>2230</td><td>1</td><td>13</td><td>10</td></tr>
+        <tr><td>32</td><td>2300</td><td>1</td><td>14</td><td>20</td></tr>
+        <tr><td>33</td><td>2370</td><td>1</td><td>15</td><td>30</td></tr>
+        <tr><td>34</td><td>2440</td><td>1</td><td>16</td><td>40</td></tr>
+        <tr><td>35</td><td>2510</td><td>1</td><td>17</td><td>50</td></tr>
+        <tr><td>36</td><td>2580</td><td>1</td><td>19</td><td>0</td></tr>
+        <tr><td>37</td><td>2650</td><td>1</td><td>20</td><td>10</td></tr>
+        <tr><td>38</td><td>2720</td><td>1</td><td>21</td><td>20</td></tr>
+        <tr><td>39</td><td>2790</td><td>1</td><td>22</td><td>30</td></tr>
+        <tr><td>40</td><td>2860</td><td>1</td><td>23</td><td>40</td></tr>
+        <tr><td>41</td><td>2930</td><td>2</td><td>0</td><td>50</td></tr>
+        <tr><td>42</td><td>3000</td><td>2</td><td>2</td><td>0</td></tr>
+        <tr><td>43</td><td>3070</td><td>2</td><td>3</td><td>10</td></tr>
+        <tr><td>44</td><td>3140</td><td>2</td><td>4</td><td>20</td></tr>
+        <tr><td>45</td><td>3210</td><td>2</td><td>5</td><td>30</td></tr>
+        <tr><td>46</td><td>3280</td><td>2</td><td>6</td><td>40</td></tr>
+        <tr><td>47</td><td>3350</td><td>2</td><td>7</td><td>50</td></tr>
+        <tr><td>48</td><td>3420</td><td>2</td><td>9</td><td>0</td></tr>
+        <tr><td>49</td><td>3490</td><td>2</td><td>10</td><td>10</td></tr>
+        <tr><td>50</td><td>3560</td><td>2</td><td>11</td><td>20</td></tr>
+        <tr><td>51</td><td>3630</td><td>2</td><td>12</td><td>30</td></tr>
+        <tr><td>52</td><td>3700</td><td>2</td><td>13</td><td>40</td></tr>
+        <tr><td>53</td><td>3770</td><td>2</td><td>14</td><td>50</td></tr>
+        <tr><td>54</td><td>3840</td><td>2</td><td>16</td><td>0</td></tr>
+        <tr><td>55</td><td>3910</td><td>2</td><td>17</td><td>10</td></tr>
+        <tr><td>56</td><td>3980</td><td>2</td><td>18</td><td>20</td></tr>
+        <tr><td>57</td><td>4050</td><td>2</td><td>19</td><td>30</td></tr>
+        <tr><td>58</td><td>4120</td><td>2</td><td>20</td><td>40</td></tr>
+        <tr><td>59</td><td>4190</td><td>2</td><td>21</td><td>50</td></tr>
+        <tr><td>60</td><td>4260</td><td>2</td><td>23</td><td>0</td></tr>
+    </tbody>
+</table>
+
+</body>
+</html>
